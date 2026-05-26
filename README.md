@@ -4,7 +4,7 @@ A **beginner-friendly** Deep Learning project. Train a Neural Network to read ha
 
 ---
 
-## Project files (only these 7)
+## Project files 
 
 ```
 Image/
