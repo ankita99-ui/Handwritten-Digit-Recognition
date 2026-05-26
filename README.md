@@ -24,35 +24,8 @@ The notebook uses **Keras built-in MNIST** by default. The CSV files are extra d
 ## What you need
 
 - Python **3.10, 3.11, or 3.12** (best for TensorFlow on Windows)
-- Jupyter Notebook or VS Code / Cursor with notebook support
+- Jupyter Notebook or VS Code
 - About 30 minutes for first run (install + training)
-
----
-
-## Quick start (3 steps)
-
-### Step 1 — Install packages (one time)
-
-Open **Terminal** or **PowerShell** in this folder and run:
-
-```powershell
-cd "e:\Udemy\Beginner Projects\Image"
-pip install -r requirements.txt
-```
-
-### Step 2 — Open the notebook
-
-```powershell
-jupyter notebook handwritten_digit_recognition.ipynb
-```
-
-Or open `handwritten_digit_recognition.ipynb` in Cursor / VS Code.
-
-### Step 3 — Run all cells
-
-Menu: **Kernel → Run All** (or run each cell with Shift+Enter).
-
-First run downloads MNIST (~11 MB). Training takes a few minutes on CPU.
 
 ---
 
