@@ -56,16 +56,7 @@ First run downloads MNIST (~11 MB). Training takes a few minutes on CPU.
 
 ---
 
-## What the notebook teaches
 
-1. Load and explore MNIST  
-2. Visualize sample digits  
-3. Preprocess (normalize, one-hot encode)  
-4. Build a Neural Network (Flatten → Dense → Dropout → Softmax)  
-5. Train and plot accuracy/loss  
-6. Evaluate on test data  
-7. Compare predictions vs real labels  
-8. Predict on `custom_digit.png` or your own drawing  
 
 ---
 
