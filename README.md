@@ -28,31 +28,10 @@ The notebook uses **Keras built-in MNIST** by default. The CSV files are extra d
 - About 30 minutes for first run (install + training)
 
 ---
+## Introduction
+MNIST contains 70,000 images of handwritten digits: 60,000 for training and 10,000 for testing. The images are grayscale, 28x28 pixels, and centered to reduce preprocessing and get started quicker.
 
-## Quick start (3 steps)
-
-### Step 1 — Install packages (one time)
-
-Open **Terminal** or **PowerShell** in this folder and run:
-
-```powershell
-cd "e:\Udemy\Beginner Projects\Image"
-pip install -r requirements.txt
-```
-
-### Step 2 — Open the notebook
-
-```powershell
-jupyter notebook handwritten_digit_recognition.ipynb
-```
-
-Or open `handwritten_digit_recognition.ipynb` in Cursor / VS Code.
-
-### Step 3 — Run all cells
-
-Menu: **Kernel → Run All** (or run each cell with Shift+Enter).
-
-First run downloads MNIST (~11 MB). Training takes a few minutes on CPU.
+Keras is a high-level neural network API focused on user friendliness, fast prototyping, modularity and extensibility. It works with deep learning frameworks like Tensorflow, Theano and CNTK, so we can get right into building and training a neural network without a lot of fuss
 
 ---
 
@@ -74,25 +53,7 @@ Expected accuracy: **about 97–98%** on the test set.
 
 ---
 
-## Draw your own digit
+## Accuracy
+It achieved 98% of accuracy with this CNN trained on a GPU, which took me about a minute. If you dont have a GPU powered machine it might take a little longer, you can try reducing the epochs (steps) to reduce computation.
 
-1. Draw **one digit** in Paint (black on white).  
-2. Save as `my_digit.png` in this folder.  
-3. In the notebook, run the last cells and use `predict_custom_digit("my_digit.png", invert=True)`.
-
----
-
-## Common problems
-
-| Problem | Fix |
-|---------|-----|
-| `No module named 'tensorflow'` | Run `pip install -r requirements.txt`, restart kernel |
-| `tensorflow.python` error | Run `pip uninstall tensorflow -y` then `pip install -r requirements.txt` again |
-| Pip fails on Windows (long path) | Use Python 3.11, or enable [long paths](https://pip.pypa.io/warnings/enable-long-paths) in Windows settings |
-| Wrong custom prediction | Try `invert=True` or `invert=False`; center the digit in the image |
-
----
-
-## License
-
-Free for learning and practice.
+It achieved 98.15% of accuracy on test set of this CNN model trained on GPU.
