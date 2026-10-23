@@ -24,7 +24,7 @@ The notebook uses **Keras built-in MNIST** by default. The CSV files are extra d
 ## What you need
 
 - Python **3.10, 3.11, or 3.12** (best for TensorFlow on Windows)
-- Jupyter Notebook or VS Code / Cursor with notebook support
+- Jupyter Notebook or VS Code 
 - About 30 minutes for first run (install + training)
 
 ---
